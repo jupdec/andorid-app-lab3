@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chocolate Cake</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Desserts</string>
+    <string name="second_fragment_label">Desserts: Chocolate Cake</string>
+    <string name="next">Show Ingredients</string>
+    <string name="previous">Hide Ingredients</string>
+
+    <string name="hello_first_fragment">Chocolate Cake</string>
+    <string name="hello_second_fragment">Chocolate Cake. Arg: %1$s</string>
+    <string name="item1">Flour</string>
+    <string name="item2">Sugar</string>
+    <string name="item3">Baking Powder</string>
+    <string name="item4">Salt</string>
+    <string name="item5">Milk</string>
+    <string name="item6">Eggs</string>
+    <string name="item7">Vanilla Extract</string>
+</resources>
