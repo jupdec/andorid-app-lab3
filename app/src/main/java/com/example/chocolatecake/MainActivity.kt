@@ -41,12 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_settings -> {
-                findNavController(R.id.nav_host_fragment_content_main)
-                    .navigate(R.id.settingsFragment)
-                true
-            }
-                R.id.action_settings -> true
+            R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
         }
     }
@@ -55,5 +50,4 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
-
 }

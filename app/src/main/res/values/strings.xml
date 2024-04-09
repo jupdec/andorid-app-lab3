@@ -16,4 +16,14 @@
     <string name="item5">Milk</string>
     <string name="item6">Eggs</string>
     <string name="item7">Vanilla Extract</string>
+    <string-array name="theme_entries">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+        <item>System Default</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

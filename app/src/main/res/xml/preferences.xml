@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="General Settings">
+    <SwitchPreference
+        android:key="notifications"
+        android:title="Enable Notifications"
+        android:defaultValue="true" />
+    <ListPreference
+        android:key="theme"
+        android:title="Theme"
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="0" />
+</PreferenceCategory>
+</PreferenceScreen>
